@@ -79,8 +79,8 @@
   height: 240px;
   object-fit: contain;
   object-position: center;
-  transition: transform 0.4s ease;
-   background: #555;
+  transition: all 0.35s ease;
+   background: white;
 }
 
 .gallery-card:hover img {
@@ -102,7 +102,7 @@
 
 .gallery-card p {
   font-size: 0.95rem;
-  color: white;
+  color: black;
   padding: 0 18px 20px;
   flex-grow: 1;
   text-align: left;
@@ -178,12 +178,29 @@ body.dark-mode #toggle-theme {
 color: white;
 }  
 
+
 .dark-mode h3 {
 color: white;
 }
 
 .dark-mode .gallery-card img{
   background-color: #575757;
+}
+
+.dark-mode .modal-content {
+  background: #333;
+
+}
+
+/* 
+.dark-mode .modal-content p {
+color: #1BE149;
+
+} */
+
+.dark-mode .modal-content h3 {
+color: #1BE149;
+
 }
 
 @media (max-width: 1024px) {

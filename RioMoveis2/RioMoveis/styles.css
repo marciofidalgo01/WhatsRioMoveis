@@ -11,6 +11,10 @@ body {
   transition: background-color 0.4s ease, color 0.4s ease;
 }
 
+h1{
+  color: white;
+}
+
 body.light-mode {
   background-color: #ffffff;
   color: #000000;
